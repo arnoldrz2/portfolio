@@ -260,15 +260,65 @@ input[type=submit] {
 }
 
 
-
 /*Tablet*/
 @media screen and (max-width: 768px) {
-  
+  .container {
+    width: 95%;
+  }
+  .main-section {
+    max-width: 100%;
+    width: 100%;
+  }  
+  .sidebar {
+    max-width: 100%;
+    width: 100%;
+  }
+  .auth-image {
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 
 
 /*Mobile Phone*/
 @media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    margin: 10px;
+  }
+
+  nav a:first child {
   
+  }
+  nav a:second child {
+    
+  }
+  nav a:third child {
+    
+  }
+
+
+  .container {
+    width: 95%;
+  }
+  .main-section {
+    max-width: 100%;
+    width: 100%;
+  }  
+  .sidebar {
+    max-width: 100%;
+    width: 100%;
+  }
+  .auth-image {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
 }
