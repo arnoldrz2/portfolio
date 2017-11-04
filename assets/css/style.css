@@ -257,6 +257,9 @@ input[type=submit] {
     margin-right: 0px;
     margin-bottom: 20px;
   }
+  .work {
+    width: 100%;
+  }
 }
 
 
@@ -272,11 +275,19 @@ input[type=submit] {
   .sidebar {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 40px;
   }
   .auth-image {
-    width: 50%;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+  .work {
+    margin-bottom: 8.75px;
+    margin-top: 15px;
+    width: 47.5%;
+  }
+  .work:nth-child(even) {
+    margin-right: 5%; 
   }
 }
 
@@ -286,27 +297,31 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
+    margin: 0px;
   }
   #logo {
     width: 100%;
   }
   nav {
-    margin: 10px;
+	margin: 0px;
+	clear: both;
+	padding: 15px;
+	text-align: center;
+	float: none;
   }
-
-  nav a:first child {
-  
+  nav a {
+    padding-left: 12%;
+    margin-left: 12%; 
   }
-  nav a:second child {
-    
+  nav a:first-child {
+    margin-left: 0px;
+    padding-left: 0px
   }
-  nav a:third child {
-    
+  #main-container {
+    padding: 20px;
   }
-
-
   .container {
-    width: 95%;
+    width: 100%;
   }
   .main-section {
     max-width: 100%;
@@ -315,10 +330,15 @@ input[type=submit] {
   .sidebar {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 40px;
   }
   .auth-image {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 20px;
+  }
+  .work {
+    width: 100%;
+    margin-bottom: 8.75px;
   }
 }
