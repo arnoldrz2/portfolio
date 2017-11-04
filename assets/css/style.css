@@ -243,6 +243,10 @@ input[type=submit] {
 
 /*Desktop*/
 @media screen and (max-width: 980px) {
+  #logo {
+  width: 320px;
+  font-size: 22px;
+}
   .container {
     width: 78%;
   }
@@ -265,6 +269,10 @@ input[type=submit] {
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
+  #logo {
+  width: 300px;
+  font-size: 21px;
+}
   .container {
     width: 95%;
   }
@@ -300,6 +308,7 @@ input[type=submit] {
     margin: 0px;
   }
   #logo {
+    font-size: 30px;
     width: 100%;
   }
   nav {
