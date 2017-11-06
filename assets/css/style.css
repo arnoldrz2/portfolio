@@ -286,6 +286,7 @@ input[type=submit] {
     margin-bottom: 40px;
   }
   .auth-image {
+    width: 50%;
     margin-right: 20px;
     margin-bottom: 20px;
   }
