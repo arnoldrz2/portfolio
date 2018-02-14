@@ -26,7 +26,7 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form" method="post" action="mailto:arnoldrz2@gmail.com">
+      <form id="contact-form" action="mailto:arnoldrz2@gmail.com" method="post" enctype="text/plain">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -41,7 +41,7 @@
             <textarea id="message" type="text" name="message" required="required" /></textarea>
           </li>
         </ul>
-        <input type="button" id="submit" value="click" />
+        <input type="submit" id="submit" value="Send Email" />
       </form>
 
     </section>
@@ -62,16 +62,6 @@
       Copyright &copy; 2017 Arnold R Zimmermman Jr
     </div>
   </footer>
-
-  <script type="text/javascript">
-      $(document).ready(function() {
-        $('#submit').click(function(){
-            $('#contact-form').attr('action', 'mailto:arnoldrz2@gmail.com?subject=' + $('#name').val() + $('#email').val() + '&body=' + $('message').val());
-        $('#contact-form').submit();
-        });
-      });
-  </script>
-
 
 </body>
 
