@@ -104,6 +104,11 @@ footer {
   font-size: 12px;
   color: #fff;
   color: #ccc;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
@@ -252,7 +257,7 @@ input[type=submit] {
   }
   .main-section {
     width: 60%;
-  }  
+  }
   .sidebar {
     width: 40%;
   }
@@ -279,7 +284,7 @@ input[type=submit] {
   .main-section {
     max-width: 100%;
     width: 100%;
-  }  
+  }
   .sidebar {
     max-width: 100%;
     width: 100%;
@@ -296,7 +301,7 @@ input[type=submit] {
     width: 47.5%;
   }
   .work:nth-child(even) {
-    margin-right: 5%; 
+    margin-right: 5%;
   }
 }
 
@@ -321,7 +326,7 @@ input[type=submit] {
   }
   nav a {
     padding-left: 12%;
-    margin-left: 12%; 
+    margin-left: 12%;
   }
   nav a:first-child {
     margin-left: 0px;
@@ -336,7 +341,7 @@ input[type=submit] {
   .main-section {
     max-width: 100%;
     width: 100%;
-  }  
+  }
   .sidebar {
     max-width: 100%;
     width: 100%;
