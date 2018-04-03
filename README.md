@@ -1,6 +1,6 @@
 # portfolio-responsive
 
-https://arnoldrz2.github.io/portfolio/
+https://arnoldrz2.github.io/portfolio-responsive/
 
 This is simple portfolio I created for fun!
 
